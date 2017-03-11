@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+         <script src="jquery.js"></script>
+        <script src="chess.min.js"></script>
+         <link rel="stylesheet" rev="stylesheet" href="chess.css">
+               
+
+    </head>
+    <body>
+        <div id="content">
+            <h1> Chess Game</h1>
+            <h2> Let's <a href="index.html" >Start !</a></h2>
+            <div id="game"></div>
+            <script>
+                $(document).ready(function () {
+                    $("#game").chess();
+                });
+            </script>
+        </div>
+
+    </body>
+</html>

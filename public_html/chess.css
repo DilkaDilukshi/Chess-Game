@@ -1,0 +1,38 @@
+h1{
+    font-size: 40px;
+   font-family: monotype corsiva;
+    color: firebrick;
+}
+
+h2{
+    font-size: 30px;
+   font-family: monotype corsiva;
+}
+
+table {
+    margin:.5em auto 0;
+    border:solid firebrick;
+    border-width:1em 1em
+}
+td {
+    text-align: center;
+    width:1.15em;
+    height:1.15em;
+    overflow:hidden;
+    font:4em/1 "MS Gothic","Segoe UI Symbol","DejaVu Sans";
+    cursor:pointer;
+    background:wheat;
+}
+td[lang="0"] {
+    outline:0 solid #a00;
+    color:#800
+}
+tr:nth-child(odd) 
+td:nth-child(even), 
+tr:nth-child(even) 
+td:nth-child(odd) {
+    background:firebrick
+}
+
+
+
